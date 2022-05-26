@@ -1,0 +1,20 @@
+{
+    "name": "bytescrafter/ftpsend",
+    "autoload": {
+        "psr-4": {
+            "Bytescrafter\\Ftpsend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BytesCrafter",
+            "email": "support@bytescrafter.net"
+        }
+    ],
+    "require": {
+        "mailgun/mailgun-php": "^3.5",
+        "symfony/http-client": "^5.4",
+        "nyholm/psr7": "^1.5",
+        "phpoffice/phpspreadsheet": "^1.23"
+    }
+}
